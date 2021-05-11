@@ -102,3 +102,47 @@ nav ul li a:hover{
     border-color: #ff523b;
     transition-duration: 1s;
 }
+
+.page1-2{
+    
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page1-2 div{
+    
+}
+
+.page1-2 img{
+    height: 350px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: #ff523b;
+    box-shadow: 0 4px 8px 2px #ff523b, 0 6px 20px 0 white;
+}
+
+.featured-products{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.heading-1{
+    color: #ff523b;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid #ff523b;
+}
+
+.products-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.products-1 img{
+    height: 300px;
+}
