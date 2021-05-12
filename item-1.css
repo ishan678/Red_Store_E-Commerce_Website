@@ -51,8 +51,7 @@ nav ul li a:hover{
     flex-direction: row;
     max-width: 1100px;
     margin: auto;
-    /* height: 600px; */
-    /* width: 100vh; */
+    margin-bottom: 120px;
 }
 
 .image{
@@ -76,10 +75,15 @@ nav ul li a:hover{
 }
 
 #size{
+    /* margin-top: 20px; */
     padding: 5px 8px;
-    border: 1px solid #ff523b;
+    border: 2px solid #ff523b;
     box-sizing: content-box;
     border-radius: 10px;
+}
+
+.size{
+    /* padding: 60px 0px; */
 }
 
 .content{
@@ -93,15 +97,127 @@ nav ul li a:hover{
 .content p{
     color: #555;
     font-size: 15px;
-    /* height: 600px; */
-
     /* padding-top: 20px; */
+    line-height: 1.5;
+    /* padding-bottom: 20px; */
 }
 .content h1{
-    /* padding: 30px 0 30px 0; */
+    /* padding: 10px 0 30px 0; */
+    font-size: 50px;
+}
+
+#quantity{
+    border: 2px solid #ff523b;
+    border-radius: 5px;
+    padding: 5px 0px;
+    width: 50px;
+    margin-right: 25px;
+}
+
+.btn{
+    border: 2px solid #ff523b;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: white;
+    background-color: #ff523b;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #ff523b;
+    cursor: pointer;
 }
 
 .content h4{
     font-size: 20px;
-    padding-bottom: ;
+
+}
+
+.content h5{
+    font-size: 20px;
+}
+
+.view-more{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-more a{
+    text-decoration: none;
+    color: #ff523b;
+}
+
+.heading-1{
+    font-size: 30px;
+}
+
+.products-page-1{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.products-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.products-1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.products-1 img{
+    height: 300px;
+    /* border-radius: 15px; */
+    padding-bottom: 3px;
+}
+
+.box{
+    /* border: 3px solid black; */
+    padding: 8px 8px;
+    /* border-radius: 15px; */
+    /* background-color: #fef4f2; */
+}
+.box:hover{
+    cursor: pointer;
+    /* box-shadow: 0 4px 8px 0px #ff523b, 0 6px 20px 0 white; */
+    transition: .5s;
+    transform: translateY(-10px);
+}
+
+
+
+.foot{
+    background-color: black;
+    color: white;
+    height: 250px;
+    margin-top: 120px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    height: 250px;
+}
+
+.foot1 img{
+    height: 40px;
+}
+
+.foot2 img{
+    height: 40px;
+}
+
+.footer p{
+    font-size: 12px;
+    line-height: 2;
 }
