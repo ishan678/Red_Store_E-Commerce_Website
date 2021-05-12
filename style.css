@@ -257,17 +257,18 @@ nav ul li a:hover{
 }
 
 .partners{
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
 .partners img{
     filter: grayscale(100%);
     transition: 0.3s;
+    height: 60px;
 }
 
 .partners img:hover{
@@ -275,4 +276,34 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+.foot{
+    background-color: black;
+    color: white;
+    height: 250px;
+    /* display: flex;
+    align-items: center;
+        justify-content: space-around; */
 
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    height: 250px;
+}
+
+.foot1 img{
+    height: 40px;
+}
+
+.foot2 img{
+    height: 40px;
+}
+
+.footer p{
+    font-size: 12px;
+    line-height: 2;
+}
