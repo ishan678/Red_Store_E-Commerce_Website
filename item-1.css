@@ -179,14 +179,10 @@ nav ul li a:hover{
 }
 
 .box{
-    /* border: 3px solid black; */
     padding: 8px 8px;
-    /* border-radius: 15px; */
-    /* background-color: #fef4f2; */
 }
 .box:hover{
     cursor: pointer;
-    /* box-shadow: 0 4px 8px 0px #ff523b, 0 6px 20px 0 white; */
     transition: .5s;
     transform: translateY(-10px);
 }
