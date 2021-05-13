@@ -78,11 +78,6 @@ nav ul li a:hover{
     display: block;
 }
 
-.page1{
-    background-image: radial-gradient( #c45546, white);
-    height: 100vh;
-}
-
 .button-row{
     padding: 15px 25px;
     border-radius: 50px;
@@ -101,6 +96,11 @@ nav ul li a:hover{
     border: 3px solid;
     border-color: #ff523b;
     transition-duration: 1s;
+}
+
+.page1{
+    background-image: radial-gradient( white, #c45546);
+    height: 100vh;
 }
 
 .page1-2{
