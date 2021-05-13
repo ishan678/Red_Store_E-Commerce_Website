@@ -82,9 +82,9 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 
-.size{
-    /* padding: 60px 0px; */
-}
+/* .size{
+    padding: 60px 0px;
+} */
 
 .content{
     display: flex;
