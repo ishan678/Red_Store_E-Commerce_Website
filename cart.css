@@ -93,4 +93,5 @@ tr th{
 .sub-total{
     /* padding-left: 100px; */
     text-align: right;
+    padding-right: 5px;
 }
