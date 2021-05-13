@@ -55,7 +55,7 @@ nav ul li a:hover{
 
 table{
     width: 60%;
-    margin: auto;
+    margin: auto;;
 }
 
 .row1{
@@ -86,5 +86,11 @@ tr th{
     text-align: left;
     font-size: 23px;
     background-color: #ff523b;
-    border: #ff523b;
+    /* border: 1px solid #ff523b; */
+    padding: 5px 0;
+}
+
+.sub-total{
+    /* padding-left: 100px; */
+    text-align: right;
 }
